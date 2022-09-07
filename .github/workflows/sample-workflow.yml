@@ -10,4 +10,4 @@ jobs:
     - name: checks-out your repository under $GITHUB_WORKSPACE
       uses: actions/checkout@v2
     - name: use echo command
-      run: wcho "sample-workflow"
+      run: echo "sample-workflow"
